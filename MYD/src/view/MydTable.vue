@@ -1,6 +1,6 @@
 <template>
     <div class="common-layout">
-        <el-container>
+<!--         <el-container>
             <el-header>
                 MYD
                 <el-form>
@@ -27,7 +27,7 @@
                         </el-table-column>
                     </el-table-column>
                 </el-table></el-main>
-        </el-container>
+        </el-container> -->
     </div>
 </template>
 <script setup lang="ts">

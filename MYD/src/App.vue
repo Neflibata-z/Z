@@ -3,7 +3,7 @@ import MydTable from './view/MydTable.vue'
 </script>
 
 <template>
-  <MydTable msg="Vite + Vue" />
+  <MydTable  />
 </template>
 
 <style scoped>

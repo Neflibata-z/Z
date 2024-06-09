@@ -33,6 +33,7 @@
     </div>
 </template>
 <script setup lang="ts">
+import { post } from "../utils/api/axios.ts";
 import { reactive, ref } from 'vue'
 import type { ComponentSize, FormInstance, FormRules } from 'element-plus'
 const props = {

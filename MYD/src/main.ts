@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import service from "./src/utils/api/axios.ts";
+import service from "./utils/api/axios.ts";
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 //import VXETable from 'vxe-table'
@@ -12,5 +12,5 @@ import 'element-plus/dist/index.css'
 /* VXETable.use(VXETablePluginExportXLSX, {
     ExcelJS
   }) */
-createApp(App).use(ElementPlus).mount('#app')//.use(VXETable)
+createApp(App).use(ElementPlus).use(service).mount('#app')//.use(VXETable)
 //createApp(App).mount('#app')

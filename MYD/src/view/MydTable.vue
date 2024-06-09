@@ -33,8 +33,9 @@
     </div>
 </template>
 <script setup lang="ts">
+//import { post } from 'service';
 import { post } from "../utils/api/axios.ts";
-import { reactive, ref } from 'vue'
+import { reactive, ref } from 'vue';
 import type { ComponentSize, FormInstance, FormRules } from 'element-plus'
 const props = {
     expandTrigger: 'hover' as const,
@@ -75,5 +76,8 @@ const resetForm = (formEl: FormInstance | undefined) => {
 }
 const submitForm = () => {
     table.tableShow = true;
+    let res = post("/request.php", { title: "1" });
+  //const name=ref(res.data)
+  console.log(res);
 }
 </script>

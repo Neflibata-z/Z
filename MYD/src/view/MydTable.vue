@@ -11,7 +11,7 @@
                     </el-form-item></el-form>
             </el-header>
             <el-main>
-                <div>统计表</div>
+                <div>统计表1</div>
                 <el-table :data="table.tableData" style="width: 100%" v-if="table.tableShow">
                     <el-table-column v-for="item in table.tableHeader" :prop="item.date" :label="item.title"
                         width="150" />
